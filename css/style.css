@@ -106,7 +106,8 @@ nav {
 }
 #val{
     position: relative;
-    left: 10px
+    left: 10px;
+    cursor: pointer;
 }
 .indicator {
     position: relative;
@@ -129,6 +130,7 @@ nav {
     text-align: center;
     transition: 0.6s ease;
     font-size: 22px;
+    cursor: pointer;
 }
 
 #i1 {
