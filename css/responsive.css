@@ -1,0 +1,163 @@
+@media only screen and (min-width: 1000px) {
+    .reactor {
+        right: 100px;
+        top: 90px;
+        height: 250px;
+        width: 30px;
+        margin: 100px 150px;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .text-box {
+        font-size: 50px;
+    }
+
+    .text-content p {
+        width: 500px;
+    }
+
+    .nova {
+        font-size: 18px;
+    }
+
+    .contact_content p {
+        font-size: 22px;
+    }
+
+    .contact_outro p {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    nav {
+        height: 200px;
+        flex-direction: column;
+    }
+
+    .panel {
+        flex-direction: column;
+    }
+
+    .reactor {
+       order: 1;
+       height: 150px;
+       width: 20px;
+       margin: 0;
+       top: 40px;
+       align-self: center;
+    }
+
+    .text-content {
+        order: 2;
+        justify-content: center;
+        position: relative;
+        top: -20px;
+    }
+
+    .text-box {
+        font-size: 30px;
+        justify-content: center;
+        font-size: 50px;
+    }
+
+    .text-content p {
+        position: relative;
+        top: 60px;
+        width: 80vw;
+    }
+
+    .nova {
+        font-size: 18px;
+    }
+
+    .contact_content p{
+        font-size: 22px;
+        margin: 0 15px;
+    }
+
+    .contact_outro p {
+        font-size: 22px;
+        line-height: 50px;
+    }
+    .contact_content p {
+        font-size: 22px;
+        line-height: 50px;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .text-box{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 450px)
+{
+    .heading{
+        font-size: 40px;
+    }
+    .nova{
+        font-size: 15px;
+    }
+    #i1{
+        position: relative;
+        font-size: 15px;
+    }
+    #i2,#i3{
+        font-size: 15px;
+    }
+    .indicator p{
+        width: 40px;
+        margin: 0 30px;
+    }
+    .drop-down{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+    }
+    hr{
+        display: none !important;
+    }
+
+    .text-content{
+        position: relative;
+        top: -100px;
+        margin: 0 30px;
+    }
+    .text-box{
+        font-size: 30px;
+    }
+    .text-content p{
+        font-size: 18px;
+    }
+
+    .reactor{
+      top: -2px;
+    }
+
+    .contact_outro p{
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .contact_content p{
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .contact_head p{
+        font-size: 40px;
+    }
+    .links ul li a img{
+        height: 45px;
+    }
+}
+@media only screen and (max-width: 500px){
+    #time_id{
+        font-size: 60px !important;
+    }
+    #date_id{
+        font-size: 30px !important;
+    }
+}

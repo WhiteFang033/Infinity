@@ -1,0 +1,30 @@
+:root {
+    --sig: rgb(232, 106, 2);
+
+    --b_glow: 0 0 10px rgb(68, 32, 4),
+        0 0 20px rgb(112, 57, 11),
+        0 0 40px rgb(155, 85, 27),
+        0 0 80px rgb(164, 89, 28);
+
+    --a_glow: 0 0 20px rgb(251, 114, 10),
+        0 0 40px rgb(230, 125, 39),
+        0 0 80px rgb(227, 132, 54),
+        0 0 160px rgb(227, 169, 121);
+}
+
+.glow{
+    color: var(--sig);
+    text-shadow: var(--b_glow);
+    transition: .6s ease;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(237, 112, 39,0.2));
+}
+
+.glow:hover{
+    color: white !important;
+    text-shadow: var(--a_glow) !important;
+}
+
+.nova{
+    font-family: Nova Flat, cursive;
+    font-size: 20px;
+}

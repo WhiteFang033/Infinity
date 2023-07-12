@@ -1,0 +1,35 @@
+/* Rotation Animation of Reactor */
+@keyframes rotateAnimate { 
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Drop Down Box */
+
+#i2, #i3, hr{
+    display: none;
+}
+
+.drop-down:hover{
+    height: 80px;
+}
+.drop-down:hover #i2{
+    display: block;
+}
+.drop-down:hover #i3{
+    display: block;
+}
+.drop-down:hover hr{
+    display: block;
+}
+
